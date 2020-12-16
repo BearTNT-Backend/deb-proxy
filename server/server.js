@@ -19,4 +19,8 @@ app.get('/listing/*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '..', 'public/index.html'));
 });
 
+app.get('/loaderio-*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, `../${process.env.LOADERIO_FILENAME}.txt`));
+});
+
 module.exports = app;

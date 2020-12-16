@@ -26,4 +26,6 @@ dist/
 
 newrelic.js
 *.pem
+*.sh
+.env
 
