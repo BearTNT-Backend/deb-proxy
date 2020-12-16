@@ -58,7 +58,7 @@ module.exports = {
   // },
   service4: {
     api: ['/more/listings/:id', '/more/users/:id/favorites'],
-    url: 'http://localhost:3004/',
+    url: 'http://18.224.82.115:3004/',
     bundle: 'bundle.js',
   },
 };
